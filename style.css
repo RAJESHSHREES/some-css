@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: rgb(245, 248, 250);
+}
+header{
+background-color: rgb(80, 8, 213);
+padding: 20px;
+text-align: center;
+color: white;
+font-family: "Comic Sans Ms",Arial, Helvetica, sans-serif;
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(95, 9, 9);
+}
+nav a{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+nav a:hover{
+background-color: yellowgreen;
+color: rgb(117, 8, 234);
+}
+.column{
+    float: left;
+    padding: 10px;
+}
+.column.side{
+    width: 20%;
+}
+.column.middle{
+    width: 50%;
+}
+p{
+    text-align: center;
+}
+footer{
+    clear: both;
+    background-color: rgb(173, 139, 237);
+padding: 20px;
+text-align: center;
+color: white;
+font-family: "Comic Sans Ms",Arial, Helvetica, sans-serif;
+}
+div.gallary{
+    margin: 5px;
+    border: 5px solid black;
+    float: left;
+    width: 200px;
+}
+div.gallary:hover{
+    border: 5px solid red;
+}
+div.gallary img{
+    width: 100%;
+    height: auto;
+}
+div .disc{
+padding: 15px;
+text-align: center;
+}
+input[type=text],  select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(112, 40, 47);
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+input[type=submit]{
+background-color: green;
+color: white;
+padding: 12px 20px;
+border: 2px ;
+cursor: pointer;
+
+}
+
